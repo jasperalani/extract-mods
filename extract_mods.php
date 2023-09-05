@@ -53,6 +53,7 @@ foreach($files as $file){
 
 echo 'Finished!';
 
+// Pulled from https://stackoverflow.com/a/2050909
 function recurseCopy(
 	string $sourceDirectory,
 	string $destinationDirectory,
